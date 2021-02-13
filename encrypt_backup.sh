@@ -19,4 +19,5 @@ zip -r $zip_name ${@}
 # encrypt the zip
 gpg --output $final_name --symmetric $zip_name 
 
+echo "Created $final_name"
 rm $zip_name
