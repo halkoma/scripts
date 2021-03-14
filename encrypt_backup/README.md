@@ -13,3 +13,5 @@ In `backup.sh`, set the files to backup after `./encrypt_backup.sh`, see comment
 ## Usage 
 
 `./backup.sh`
+
+The script will ask for a password for symmetric encryption. 
