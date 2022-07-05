@@ -8,8 +8,8 @@ fi
 filename=$1
 name=${1%.*}
 html=$name.html
-wget http://www.w3.org/Talks/Tools/Slidy2/slidy.zip
-unzip slidy.zip
+#wget http://www.w3.org/Talks/Tools/Slidy2/slidy.zip
+#unzip slidy.zip
 pandoc -s -t slidy -V slidy-url=./Slidy2 --css style.css $filename > $html && \
 # class="incremental" makes the elements to be shown one by one in the slideshow
 sed -i 's'/\

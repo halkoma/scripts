@@ -8,4 +8,4 @@
 
 - Test 
 
-![Some image](./img/image)
+![Some image](./img/harakka.jpg)
